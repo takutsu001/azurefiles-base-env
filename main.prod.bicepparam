@@ -1,6 +1,6 @@
 using 'main.bicep'
 
-param resourceGroupName = 'AzureFiles2-RG'
+param resourceGroupName = 'AzureFiles-RG'
 param resourceGroupLocation = 'japaneast'
 // ---- for Firewall Rule ----
 // your ip address for SSH (ex. xxx.xxx.xxx.xxx)
