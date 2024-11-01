@@ -181,8 +181,13 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2022-09-01' = {
 // ファイル共有の作成
 resource fileShare 'Microsoft.Storage/storageAccounts/fileServices/shares@2022-09-01' = {
   name: '${storageAccountName}/default/${fileshareName}'
+  properties: {
+    shareQuota: 102400  // 100 TiB
+  }
+  dependsOn: [
+    storageAccount
+  ]
 }
-
 
 // プライベートDNSゾーンの作成
 resource privateDnsZone 'Microsoft.Network/privateDnsZones@2020-06-01' = {
