@@ -3,7 +3,7 @@ using 'main.bicep'
 param resourceGroupName = 'AzureFiles-RG'
 param resourceGroupLocation = 'japaneast'
 // ---- for Firewall Rule ----
-// your ip address for SSH (ex. xxx.xxx.xxx.xxx)
+// your ip address for RDP (ex. xxx.xxx.xxx.xxx)
 param myipaddress = '<Public IP your PC Address>'
 // ---- param for Hub ----
 param hubVNetName = 'Hub-VNet'
