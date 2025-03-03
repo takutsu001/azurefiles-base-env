@@ -1,6 +1,6 @@
 # azurefiles-base-env
 ## はじめに
-本 Bicep は [Azure Files 検証環境用](https://zenn.dev/articles/zenn-files-onpread-noaad/edit) のベース環境を作成するBicepです
+本 Bicep は [Azure Files 検証環境用](https://zenn.dev/microsoft/articles/zenn-files-onpread-noaad) のベース環境を作成するBicepです
 
 ## 構成図
 ![](/images/azfiles-topology.png)
